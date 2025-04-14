@@ -1,0 +1,92 @@
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#top {
+    text-decoration: underline;
+}
+
+.emphasizeText {
+    font-style: italic;
+    color: teal;
+}
+
+body{
+    background-color: #C0DFD9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 20px;
+    border: 5px solid teal;
+    margin: 20px;
+}
+
+centered-list {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .centered-list ol {
+    list-style-position: outside;
+    padding-left: 1.5rem;
+    text-align: left;
+    display: inline-block; 
+  }
+  
+  .centered-list ul {
+    list-style-position: outside;
+    padding-left: 2rem;
+  }
+
+  .common{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    height: 100px;
+    background-color: wheat;
+    color: darkcyan;
+    line-height: 100px;
+}
+
+.mainbody {
+    background-color: rgb(137, 210, 226);
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 1px;
+    right: 1px;
+    height: 25px;
+    padding-top: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+nav{
+    background-color: whitesmoke;
+    padding: 10px;
+    overflow: hidden;
+   
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
